@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    background-color: #fdfdfd;
+}
+.login-container {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    width: 32px;
+    max-width: 100%;
+    text-align: center;
+}
+.login-container h2 {
+    margin-top: 0;
+    color: #000000;
+}
+.input-group {
+    margin-bottom: 20px;
+}
+.input-group input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    border: 1px solid #5218e4a3;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+}
+.input-group input:focus {
+    outline: none;
+    border-color: #00ff84;
+}
+.logo-projeto {
+    display: block;
+    width: 20px;
+    height: 10px;
+    margin: 0 auto 20px;
+    border-radius: 50%;
+}
+.forgot-password {
+    text-align: center;
+    margin-top: 10px;
+}
+button {
+    background-color: #24c253;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+button:hover {
+    background-color: #0056b3;
+}
+a {
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+a:hover {
+    color: 
